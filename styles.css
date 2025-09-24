@@ -1,0 +1,48 @@
+/* Selecciona el cuerpo del documento */
+body {
+    /* Establece el color de fondo para toda la página */
+    background-color: #f0f0f0; /* Un gris claro para un fondo suave */
+    
+    /* Define la tipografía principal para el texto */
+    font-family: Arial, sans-serif;
+    
+    /* Opcionalmente, puedes establecer un color de texto por defecto */
+    color: #333;
+}
+
+/* Cambia la tipografía de todos los encabezados */
+h1, h2, h3 {
+    font-family: 'Georgia', serif; /* Una tipografía con serifa para los títulos */
+    color: #004d40; /* Un color más oscuro para que resalten */
+}
+
+/* Estilos específicos para la sección de películas */
+.seccion-peliculas {
+    /* Define un fondo de color diferente para esta sección */
+    background-color: #fff; /* Un fondo blanco para el contenedor */
+    
+    /* Añade espacio alrededor del contenido y bordes redondeados */
+    padding: 20px;
+    border-radius: 8px;
+    
+    /* Centra el contenedor en la página */
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Estilos para cada película individual */
+.pelicula {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Estilos para las imágenes de las películas */
+.pelicula img {
+    /* Asegura que la imagen no sea más ancha que su contenedor */
+    max-width: 100%;
+    height: auto;
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+    margin: 10px auto; /* Centra la imagen */
+    border-radius: 4px;
+}
