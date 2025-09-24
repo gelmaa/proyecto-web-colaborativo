@@ -1,0 +1,16 @@
+.arcoiris {
+  background: linear-gradient(to right., red, orange, yellow, green, blue, indigo, violet);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.arcoiris img {
+  max-widht: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+}
